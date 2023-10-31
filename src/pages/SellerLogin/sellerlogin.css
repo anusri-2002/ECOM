@@ -1,0 +1,32 @@
+.sellerlogin{
+    width: 40%;
+    height:600px;
+    margin: 200px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+.sellerlogin h1{
+    text-align: center;
+    font-weight: 500px;
+    padding: 50px;
+    color:blue
+
+}
+.sellerlogin .form{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+gap: 30px;
+}
+.sellerlogin label{
+    font-weight: 400;
+}
+.sellerlogin .loginbtn{
+    margin-top: 20px;
+}
+.sellerlogin p{
+    text-align: center;
+    width: 80%;
+    margin: 0%;
+}

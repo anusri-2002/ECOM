@@ -1,0 +1,20 @@
+.navbar {
+  width: 100%;
+  padding: 0px 20px;
+  background-color:#fbfbf9;
+  height: 60px;
+  justify-content: end;
+  align-items: center;
+  display: flex;
+}
+.navbar .user {
+  display: flex;
+  gap: 10px;
+}
+.navbar .user .username {
+  margin-top: 2px;
+}
+.navbar .user .email {
+  font-size: 13px;
+  color: #bababa;
+}

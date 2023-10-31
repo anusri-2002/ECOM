@@ -1,0 +1,21 @@
+.addcategory{
+    padding:50px 70px;
+}
+.addcategorybtn{
+    margin-top: 40px;
+}
+.form label{
+  background-color: orangered;
+  display: block;
+}
+.addcategory .form{
+    width:500px;
+    margin-top: 50px;
+}
+.uploaddiv{
+    margin-top: 40px;
+}
+.uploaddiv label{
+    display: block;
+    margin-bottom: 20px;
+}

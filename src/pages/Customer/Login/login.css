@@ -1,0 +1,32 @@
+.customerlogin{
+    width: 40%;
+    height:600px;
+    margin: 200px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+.customerlogin h1{
+    text-align: center;
+    font-weight: 500px;
+    padding: 50px;
+    color:blue
+
+}
+.customerlogin .form{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+gap: 30px;
+}
+.customerlogin label{
+    font-weight: 400;
+}
+.customerlogin .loginbtn{
+    margin-top: 20px;
+}
+.customerlogin p{
+    text-align: center;
+    width: 80%;
+    margin: 0%;
+}

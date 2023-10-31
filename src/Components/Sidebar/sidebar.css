@@ -1,0 +1,64 @@
+.sidebar {
+  width: 18%;
+  border-right: 1px solid rgb(157, 44, 44);
+  min-height: 100vh;
+  background-color: #fbfbf9;
+  border-right: 1px solid #fbfbf9;
+}
+.sidebar .logosection {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  color: blue;
+}
+.sidebar .logosection h1 {
+  font-size: 27px;
+  color: blueviolet;
+}
+.sidebarlink {
+  text-decoration: inherit;
+  color: blueviolet;
+}
+.sidebar-menu {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+  cursor: pointer;
+  margin: 20px 0;
+  transition: all 1s;
+}
+.sidebar-menu:hover {
+  background-color: blue;
+}
+.sectionheading {
+  font-weight: 500px;
+  font-size: 18px;
+  padding-left: 20px;
+  color: #481cae;
+}
+.sidebar-link {
+  text-decoration: inherit;
+  color: black;
+  /* background-color: red; */
+  margin: 10px 30px;
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 6px;
+  display: flex;
+  gap: 10px;
+  color: blueviolet;
+}
+.dashboardsection {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar-link:hover {
+  background-color: blueviolet;
+  color: white;
+  transition: backgroun-colour 0.1s;
+}
+.active {
+  background-color: #481cae;
+  color: white;
+}
